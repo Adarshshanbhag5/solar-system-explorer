@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./background.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Solar System Explorer</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="heading">solar system explorer</h1>
+    </header>
+    <div class="planet-list">
+      <ul>
+        <li class="planet">
+          <div class="container">
+            <div class="pimg">
+              <div class="plogo" id="p9"></div>
+            </div>
+            <div class="inner-text">
+              <div class="pname">pluto</div>
+              <div class="pdist">39.5 AU</div>
+            </div>
+          </div>
+        </li>
+        <li class="planet">
+          <div class="container">
+            <div class="pimg">
+              <div class="plogo" id="p8"></div>
+            </div>
+
+            <div class="inner-text">
+              <div class="pname">neptune</div>
+              <div class="pdist">30.06 AU</div>
+            </div>
+          </div>
+        </li>
+        <li class="planet">
+          <div class="container">
+            <div class="pimg">
+              <div class="plogo" id="p7"></div>
+            </div>
+
+            <div class="inner-text">
+              <div class="pname">uranus</div>
+              <div class="pdist">19.18 AU</div>
+            </div>
+          </div>
+        </li>
+        <li class="planet">
+          <div class="container">
+            <div class="pimg">
+              <div class="plogo" id="p6"></div>
+            </div>
+            <div class="inner-text">
+              <div class="pname">saturn</div>
+              <div class="pdist">9.539 AU</div>
+            </div>
+          </div>
+        </li>
+        <li class="planet">
+          <div class="container">
+            <div class="pimg">
+              <div class="plogo" id="p5"></div>
+            </div>
+            <div class="inner-text">
+              <div class="pname">jupiter</div>
+              <div class="pdist">5.203 AU</div>
+            </div>
+          </div>
+        </li>
+        <li class="planet">
+          <div class="container">
+            <div class="pimg">
+              <div class="plogo" id="p4"></div>
+            </div>
+            <div class="inner-text">
+              <div class="pname">mars</div>
+              <div class="pdist">1.524 AU</div>
+            </div>
+          </div>
+        </li>
+        <li class="planet">
+          <div class="container">
+            <div class="pimg">
+              <div class="plogo" id="p3"></div>
+            </div>
+            <div class="inner-text">
+              <div class="pname">earth</div>
+              <div class="pdist">1 AU</div>
+            </div>
+          </div>
+        </li>
+        <li class="planet">
+          <div class="container">
+            <div class="pimg">
+              <div class="plogo" id="p2"></div>
+            </div>
+            <div class="inner-text">
+              <div class="pname">venus</div>
+              <div class="pdist">0.723 AU</div>
+            </div>
+          </div>
+        </li>
+        <li class="planet">
+          <div class="container">
+            <div class="pimg">
+              <div class="plogo" id="p1"></div>
+            </div>
+            <div class="inner-text">
+              <div class="pname selected">mercury</div>
+              <div class="pdist">0.39 AU</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="slider-container">
+      <div class="slider">
+        <div class="all-planet">
+          <div class="p--container pluto">
+            <div class="planet--name">
+              <h3>planet</h3>
+              <h1>pluto</h1>
+            </div>
+          </div>
+        </div>
+        <div class="all-planet">
+          <div class="p--container neptune">
+            <div class="planet--name">
+              <h3>planet</h3>
+              <h1>neptune</h1>
+            </div>
+          </div>
+        </div>
+        <div class="all-planet">
+          <div class="p--container uranus">
+            <div class="planet--name">
+              <h3>planet</h3>
+              <h1>uranus</h1>
+            </div>
+          </div>
+        </div>
+        <div class="all-planet">
+          <div class="p--container saturn">
+            <div class="planet--name">
+              <h3>planet</h3>
+              <h1>saturn</h1>
+            </div>
+          </div>
+        </div>
+        <div class="all-planet">
+          <div class="p--container jupiter">
+            <div class="planet--name">
+              <h3>planet</h3>
+              <h1>jupiter</h1>
+            </div>
+          </div>
+        </div>
+        <div class="all-planet">
+          <div class="p--container mars">
+            <div class="planet--name">
+              <h3>planet</h3>
+              <h1>mars</h1>
+            </div>
+          </div>
+        </div>
+        <div class="all-planet">
+          <div class="p--container earth">
+            <div class="planet--name">
+              <h3>planet</h3>
+              <h1>earth</h1>
+            </div>
+          </div>
+        </div>
+        <div class="all-planet">
+          <div class="p--container venus">
+            <div class="planet--name">
+              <h3>planet</h3>
+              <h1>venus</h1>
+            </div>
+          </div>
+        </div>
+        <div class="all-planet">
+          <div class="p--container p--active-container mercury">
+            <div class="planet--name transition-end-class">
+              <h3>planet</h3>
+              <h1>mercury</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fixed-hidden-btn"></div>
+
+    <div class="planet-small-info">
+      <p>
+        the closest planet to the sun. it circles the sun faster than all the
+        other planets. which is why romans names it after their swift-footed
+        messenger god.
+      </p>
+      <div class="read--more">read more</div>
+    </div>
+
+    <div class="modal-back">
+      <h1 id="back-btn">back</h1>
+    </div>
+    <div class="read-more-page">
+      <h1 class="inner-heading">mercury</h1>
+      <p class="details" id="d1">
+        Mercury is the closest planet to the sun. As such, it circles the sun
+        faster than all the other planets, which is why Romans named it after
+        their swift-footed messenger god.
+      </p>
+      <br />
+      <p class="details" id="d2">
+        The Sumerians also knew of Mercury since at least 5,000 years ago. It
+        was often associated with Nabu, the god of writing. Mercury was also
+        given separate names for its appearance as both a morning star and as an
+        evening star. Greek astronomers knew, however, that the two names
+        referred to the same body, and Heraclitus, around 500 B.C., correctly
+        thought that both Mercury and Venus orbited the sun, not Earth.
+      </p>
+      <img class="inside-img" src="./planets/mercury-d.jpg" alt="" />
+      <h2 class="facts">A year on Mercury is just 88 days long.</h2>
+      <p class="details" id="d3">
+        One solar day (the time from noon to noon on the planet’s surface) on
+        Mercury lasts the equivalent of 176 Earth days while the sidereal day
+        (the time for 1 rotation in relation to a fixed point) lasts 59 Earth
+        days. Mercury is nearly tidally locked to the Sun and over time this has
+        slowed the rotation of the planet to almost match its orbit around the
+        Sun. Mercury also has the highest orbital eccentricity of all the
+        planets with its distance from the Sun ranging from 46 to 70 million km.
+      </p>
+      <h2 class="facts">Mercury is the smallest planet in the Solar System.</h2>
+      <p class="details" id="d4">
+        One of five planets visible with the naked eye a, Mercury is just 4,879
+        Kilometres across its equator, compared with 12,742 Kilometres for the
+        Earth.
+      </p>
+      <h2 class="facts">Mercury is the second densest planet.</h2>
+      <p class="details" id="d5">
+        Even though the planet is small, Mercury is very dense. Each cubic
+        centimetre has a density of 5.4 grams, with only the Earth having a
+        higher density. This is largely due to Mercury being composed mainly of
+        heavy metals and rock.
+      </p>
+      <h2 class="facts">Mercury has wrinkles.</h2>
+      <p class="details" id="d6">
+        As the iron core of the planet cooled and contracted, the surface of the
+        planet became wrinkled. Scientist have named these wrinkles, Lobate
+        Scarps. These Scarps can be up to a mile high and hundreds of miles
+        long.
+      </p>
+      <br />
+    </div>
+
+    <div class="body-wheel-event-div"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

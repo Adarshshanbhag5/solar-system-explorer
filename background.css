@@ -1,0 +1,130 @@
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8,
+#p9 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 -13px 10px 2px black inset;
+  opacity: 2;
+}
+
+#p1 {
+  background: url(./planets/mercury.jpg);
+}
+
+#p2 {
+  background: url(./planets/venus.jpg);
+}
+
+#p3 {
+  background: url(./planets/earth.jpg);
+}
+
+#p4 {
+  background: url(./planets/mars.jpg);
+}
+
+#p5 {
+  background: url(./planets/jupiter.jpg);
+}
+
+#p6 {
+  background: url(./planets/saturn.jpg);
+}
+
+#p7 {
+  background: url(./planets/uranus.png);
+}
+
+#p8 {
+  background: url(./planets/neptune.png);
+}
+
+#p9 {
+  background: url(./planets/pluto.png);
+}
+
+/* planet main and its texture section */
+
+.pluto,
+.neptune,
+.uranus,
+.saturn,
+.jupiter,
+.mars,
+.earth,
+.venus,
+.mercury {
+  background-repeat: no-repeat;
+  background-size: 740px 510px !important;
+}
+
+.pluto {
+  background: url(./planets/pluto.png);
+  box-shadow: 0 -590px 150px black inset,
+    0 0px 130px 40px rgb(234 205 199 / 60%) inset,
+    0 0px 23px 4px rgb(234 205 199 / 60%) inset, 0 -10px 130px #2d4153;
+}
+
+.neptune {
+  background: url(./planets/neptune.png);
+  box-shadow: 0 -590px 150px black inset,
+    0 0px 130px 40px rgb(234 205 199 / 60%) inset,
+    0 0px 23px 4px rgb(234 205 199 / 60%) inset, 0 -10px 130px #2d4153;
+}
+
+.uranus {
+  background: url(./planets/uranus.png);
+  box-shadow: 0 -590px 150px black inset,
+    0 0px 130px 40px rgb(234 205 199 / 60%) inset,
+    0 0px 23px 4px rgb(234 205 199 / 60%) inset,
+    0 -10px 130px rgb(127 188 171 / 60%);
+}
+
+.saturn {
+  background: url(./planets/saturn.jpg);
+  box-shadow: 0 -590px 150px black inset,
+    0 0px 130px 40px rgb(234 205 199 / 60%) inset,
+    0 0px 23px 4px rgb(234 205 199 / 60%) inset,
+    0 -10px 130px rgb(188 143 127 / 60%);
+}
+
+.jupiter {
+  background: url(./planets/jupiter.jpg);
+  box-shadow: 0 -590px 150px black inset,
+    0 0px 130px 40px rgb(234 205 199 / 60%) inset,
+    0 0px 23px 4px rgb(234 205 199 / 60%) inset,
+    0 -10px 130px rgb(188 143 127 / 60%);
+}
+
+.mars {
+  background: url(./planets/mars.jpg);
+  box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #e86363 inset,
+    0 0px 23px 4px #e86363 inset, 0 -10px 130px #6b261a;
+}
+
+.earth {
+  background: url(./planets/earth.jpg);
+  box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #8cbaff inset,
+    0 0px 23px 4px #8cbaff inset, 0 -10px 130px #7894a9;
+}
+
+.venus {
+  background: url(./planets/venus.jpg);
+  box-shadow: 0 -590px 150px black inset, 0 0px 130px 40px #ffcb9c inset,
+    0 0px 23px 4px #ffcb9c inset, 0 -10px 130px #b85a07;
+}
+
+.mercury {
+  background: url(./planets/mercury.jpg);
+  box-shadow: 0 -590px 150px black inset,
+    0 0px 130px 40px rgb(234 205 199 / 60%) inset,
+    0 0px 23px 4px rgb(234 205 199 / 60%) inset,
+    0 -10px 130px rgb(188 143 127 / 60%);
+}
